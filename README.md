@@ -18,4 +18,6 @@ Then you can build and run the algorithm seperately using CMake:
 This will build the a binary that computes the minimum hamming distance of an array that was randomly generated. The binary contains two algorithms, one is a serial computation of Hamming Distance, and the other is a parallel version which is implemented using Intel TBB.
 The number of tests (array elements) is controlled by test macro defined as 'SIZE_OF_ARRAY'. 
 
-Please note that in order to run the binary code successfully, you need to instal Intel TBB library.
+Please note that in order to run the binary code successfully, you need to instal Intel TBB library:
+
+    sudo apt install libtbb-dev
