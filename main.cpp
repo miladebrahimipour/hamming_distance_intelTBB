@@ -94,5 +94,5 @@ int minHammingDstanceParallel(const std::vector<unsigned int>& tab)
             min_hamming[i][j] = (min_hamming[i][j] > res.count()) ? res.count() : min_hamming[i][j];*/
         });
     });
-    return 0;
+    return min_hamming;
 }
